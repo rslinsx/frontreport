@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    display: flex;
+}
+
+
+#menuLateral {
+    border: 1px solid black;
+    height: 100vh;
+    width: 15vw;
+}
+
+#tela{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 85vw;
+    border: 1px solid red;
+
+}
+
+#top{
+    height: 15vh;
+    border: 1px solid blue;
+}
+
+#mid{
+    height: 50vh;
+    border: 1px solid green;
+}
+
+#bot{
+    height: 35vh;
+    border: 1px solid pink;
+}
+
+
